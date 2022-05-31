@@ -1,0 +1,27 @@
+[[socials]]
+    id = "atom"
+    url = "/atom.xml"
+    icon = "rss"
+    title = "Atom"
+    weight = 1
+
+[[socials]]
+    id = "email"
+    url = "mailto:v.makise@foxmail.com"
+    icon = "envelope"
+    title = "Email"
+    weight = 2
+
+[[socials]]
+    id = "github"
+    url = "https://github.com/makisevon"
+    icon = "github"
+    title = "GitHub"
+    weight = 3
+
+[[socials]]
+    id = "qq"
+    url = "tencent://message/?uin=1079704998"
+    icon = "qq"
+    title = "QQ"
+    weight = 4
