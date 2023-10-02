@@ -11,12 +11,12 @@ dropCap: true
 
 ---
 
-{{< meting song netease 1367133435 >}}
+{{< meting song netease 33051055 one >}}
 
 ## Friends
 
 - [Arcturus](https://www.cnblogs.com/arcturus)
-- [青君](https://www.cnblogs.com/gosick)
+- [acDsp](https://www.cnblogs.com/gosick)
 - [KAAAsS](https://kaaass.net)
 - [FGHRSH](https://www.fghrsh.net)
 - [SAGIRI](https://blog.sagiri-web.com)

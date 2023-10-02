@@ -2,17 +2,30 @@
     --color-heimu: #252525;
 }
 
+.header .menu-item .icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.4em 0 0;
+}
+
+.header .menu-item .menu-item-name {
+    vertical-align: middle;
+}
+
 .home .poetry {
-    padding-top: 7em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .home .poetry .avatar {
     display: block;
-    margin: 2em auto;
     max-width: 50%;
+    margin: 2em auto;
     border: 1px solid var(--color-contrast-lower);
-    clear: both;
     border-radius: 50%;
+    clear: both;
     transition: transform 1s ease-out;
 }
 
@@ -20,8 +33,29 @@
     transform: rotateZ(360deg);
 }
 
+.main .post-tags a {
+    vertical-align: middle;
+}
+
+.main .post-tags .icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.4em 0 0;
+}
+
 .main .gitalk-without-nav {
     margin-top: 7em;
+}
+
+.main .gt-user-name,
+.main .gt-ico,
+.main .gt-ico .gt-svg,
+.main .gt-ico .gt-ico-text {
+    vertical-align: middle;
+}
+
+.main .gt-ico .gt-svg svg {
+    vertical-align: top;
 }
 
 @for $i from 1 through 6 {
@@ -30,24 +64,31 @@
     }
 }
 
+.post .lntable,
+.post .highlight > pre,
+.post img {
+    max-height: 33.5em;
+}
+
 .post .heimu {
     background-color: var(--color-heimu);
 }
 
-.post .heimu, .post .heimu a {
+.post .heimu,
+.post .heimu a {
     color: var(--color-heimu);
     text-decoration: none;
     text-shadow: none;
 }
 
 .post .heimu:hover {
-    transition: color .13s linear;
     color: white;
+    transition: color .13s linear;
 }
 
 .post .heimu:hover a {
-    transition: color .13s linear;
     color: var(--color-primary);
+    transition: color .13s linear;
 }
 
 .post .heimu a:hover {
