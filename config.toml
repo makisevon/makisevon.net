@@ -350,7 +350,7 @@ uglyURLs = false
     # Verse (Markdown supported)
     homePoetry = [
         '<img src="https://cdn.makisevon.net/images/avatar.jpg" class="avatar">',
-        '<span class="caption">◎ Enjoy coding life.</span>',
+        '<span class="caption">Enjoy coding life.</span>',
         "Boredom is my worst enemy",
         "and noise is the second worst one."
     ]
@@ -948,7 +948,7 @@ uglyURLs = false
 
     enableCaption = true
 
-    captionPrefix = "◎ "
+    captionPrefix = ""
 
 
     ######################################
