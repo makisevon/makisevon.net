@@ -4,7 +4,7 @@ date: 2024-03-01T00:00:00+08:00
 tags: ["Annual Summary"]
 ---
 
-> 見ないフリしていても \
+> 見ないフリしていても  
 > 確かにそこに君の中に
 
 ## 转职
@@ -35,7 +35,7 @@ tags: ["Annual Summary"]
 
 ![](/images/2023-annual-summary/06.jpg "看 MyGO 导致的 ☝🏻")
 
-> この世界は残酷だ… \
+> この世界は残酷だ…  
 > そして…とても美しい
 
 ## 辞职
@@ -56,7 +56,7 @@ tags: ["Annual Summary"]
 
 ![](/images/2023-annual-summary/08.jpg "すれ違う青春、交わる音楽")
 
-> And the next music begins. \
+> And the next music begins.  
 > See you next spring.
 
 ## 述职
