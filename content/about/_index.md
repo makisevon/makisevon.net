@@ -1,5 +1,4 @@
 ---
-title: "About"
 meta: false
 comments: true
 dropCap: true
