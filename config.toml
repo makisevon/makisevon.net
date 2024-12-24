@@ -467,7 +467,7 @@ uglyURLs = false
     #       fallback to the default value: 42
     #       Unit: em
 
-    displayListTitle = true
+    displayListTitle = false
 
     listDateFormat = "January 2"
     # ATTENTION: be sure to follow the
