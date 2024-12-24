@@ -23,7 +23,7 @@ tags: ["Annual Summary"]
 
 ![](/images/2023-annual-summary/04.jpg "私も、北宇治が好き")
 
-2023 年末到 2024 年初，从大乱斗孤儿到云顶棋篓子，从电子 ED 到 War3 若至再到太刀侠 🦐
+2023 年末到 2024 年初，从大乱斗孤儿到云顶棋篓子，从电子 ED 到 War 3 若至再到太刀侠 🦐
 
 ![](/images/2023-annual-summary/05.png "感谢陪玩 🔥 儿和康子带我玩 w")
 
