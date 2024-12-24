@@ -40,10 +40,6 @@ enableGitInfo = false
 # Enable generation of `robots.txt` file?
 enableRobotsTXT = true
 
-# Number of items per page in paginated
-# lists (valid for the `posts` homepage
-# layout in MemE)
-paginate = 5
 
 # URL related
 disablePathToLower = false
@@ -63,6 +59,14 @@ uglyURLs = false
 # Modified date
 [frontmatter]
     lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+
+[pagination]
+    disableAliases = false
+    # Number of items per page in paginated
+    # lists (valid for the `posts` homepage
+    # layout in MemE)
+    pagerSize = 5
+    path = 'page'
 
 # Markdown renderer
 [markup]
@@ -99,20 +103,6 @@ uglyURLs = false
 [minify.tdewolff.html]
     keepWhitespace = false
 
-# Author’s information
-[author]
-    # Name
-    name = "Makise Von"
-    # Email
-    email = "v.makise@foxmail.com"
-    # Motto or introduction
-    motto = "Boredom is my worst enemy and noise is the second worst one."
-    # Avatar
-    avatar = "/images/avatar.jpg"
-    # Personal website, default: baseURL
-    website = "https://makisevon.net"
-    # Twitter
-    twitter = "makisevon"
 
 # Related content
 [related]
@@ -985,7 +975,7 @@ uglyURLs = false
 
     enableCaption = true
 
-    captionPrefix = ""
+    captionPrefix = "※ "
 
 
     ######################################
@@ -1079,9 +1069,9 @@ uglyURLs = false
     # Menu bar
     fontFamilyMenu = ""
     # Post title, post subtitle, list title, year and month title of the list, related posts title, previous/next post title, header of table, term/name in a definition list
-    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'Noto Serif SC', serif"
     # Headings, toc title
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Noto Serif SC', serif"
     # Code, superscript, post meta info, post updated badge, post gitinfo, minimal footer, busuanzi site view counter
     fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
     # Blockquotes
@@ -1093,7 +1083,7 @@ uglyURLs = false
     # Footer
     fontFamilyFooter = ""
     # Body
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Noto Serif SC', serif"
 
     # Embed fonts link
     fontsLink = "https://cdn.makisevon.net/css/fonts.css"
@@ -1542,3 +1532,22 @@ uglyURLs = false
         valine = "/npm/valine/dist/Valine.min.js"
         busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
         utterances = "https://utteranc.es/client.js"
+
+
+    ######################################
+    # Author’s information
+    [params.author]
+        # Name
+        name = "Makise Von"
+        # Email
+        email = "v.makise@foxmail.com"
+        # Motto or introduction
+        motto = "Boredom is my worst enemy and noise is the second worst one."
+        # Avatar
+        avatar = "/images/avatar.jpg"
+        # Personal website, default: baseURL
+        website = "https://makisevon.net"
+        # Twitter
+        twitter = "makisevon"
+        # Fediverse
+        fediverse = ""
