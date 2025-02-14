@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 
 # Title case style
 # https://gohugo.io/getting-started/configuration/#configure-title-case
-titleCaseStyle = "none"
+titleCaseStyle = "ap"
 
 # Pluralize list titles
 pluralizeListTitles = false
@@ -467,7 +467,7 @@ uglyURLs = false
     #       fallback to the default value: 42
     #       Unit: em
 
-    displayListTitle = false
+    displayListTitle = true
 
     listDateFormat = "January 2"
     # ATTENTION: be sure to follow the
