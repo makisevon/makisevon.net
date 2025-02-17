@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 
 # Title case style
 # https://gohugo.io/getting-started/configuration/#configure-title-case
-titleCaseStyle = "ap"
+titleCaseStyle = "none"
 
 # Pluralize list titles
 pluralizeListTitles = false
