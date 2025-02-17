@@ -16,7 +16,7 @@ dropCap: true
 ## Friends
 
 - [Arcturus](https://www.cnblogs.com/arcturus)
-- [acDsp](https://www.cnblogs.com/gosick)
+- [aokimi](https://www.cnblogs.com/gosick)
 - [KAAAsS](https://kaaass.net)
 - [FGHRSH](https://www.fghrsh.net)
 - [SAGIRI](https://blog.sagiri-web.com)
