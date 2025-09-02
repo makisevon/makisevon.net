@@ -72,7 +72,7 @@ tags: ["Annual Summary"]
     - [x] 摸了个 DAG Workflow Engine 🦀
     - [ ] 本来想摸篇技术 Blog，太忙了就鸽了 🕊
 
-[![](https://github-readme-stats.vercel.app/api/pin/?username=makisevon&repo=flow&show_owner=true&hide_border=true)](https://github.com/makisevon/flow)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=makisevon&repo=dag-flow&show_owner=true&hide_border=true)](https://github.com/makisevon/dag-flow)
 
 2024 目标：
 
