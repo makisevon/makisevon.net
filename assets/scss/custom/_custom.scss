@@ -1,0 +1,112 @@
+:root {
+    --color-heimu: #252525;
+}
+
+.header .nav .menu .menu-item .icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0.1em 0.4em 0 0;
+}
+
+.header .nav .menu .menu-item .menu-item-name {
+    vertical-align: middle;
+}
+
+.home .poetry {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .poetry .avatar {
+    display: block;
+    max-width: 50%;
+    margin: 2em auto;
+    border: 1px solid var(--color-contrast-lower);
+    border-radius: 50%;
+    clear: both;
+    transition: transform 1s ease-out;
+}
+
+.home .poetry .avatar:hover {
+    transform: rotateZ(360deg);
+}
+
+.main .post .post-title {
+    font-size: 1.5em;
+}
+
+@for $i from 1 through 6 {
+    .main .post .post-body h#{$i} {
+        font-size: 1em + (6 - $i) / 10;
+    }
+}
+
+.main .post .post-body img {
+    max-height: 33.5em;
+}
+
+.main .post .post-body .heimu {
+    color: var(--color-heimu);
+    text-decoration: none;
+    text-shadow: none;
+    background-color: var(--color-heimu);
+}
+
+.main .post .post-body .heimu a {
+    color: var(--color-heimu);
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.main .post .post-body .heimu a:hover {
+    text-decoration: underline;
+    text-decoration-color: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.5);
+}
+
+.main .post .post-body .heimu:hover {
+    color: white;
+    transition: color .13s linear;
+}
+
+.main .post .post-body .heimu:hover a {
+    color: var(--color-primary);
+    transition: color .13s linear;
+}
+
+.main .post-tags .post-tags-link {
+    vertical-align: middle;
+}
+
+.main .post-tags .post-tags-link .icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 0.4em 0.3em 0;
+}
+
+.main .gitalk-without-nav {
+    margin-top: 7em;
+}
+
+.main .gt-container .gt-meta .gt-popup .gt-action.is--active:before {
+    top: 0.7em;
+}
+
+.main .gt-container .gt-meta .gt-user .gt-user-name,
+.main .gt-container .gt-meta .gt-user .gt-ico {
+    vertical-align: middle;
+}
+
+.main .gt-container .gt-meta .gt-user .gt-ico .gt-svg svg {
+    vertical-align: baseline;
+}
+
+.main .gt-container .gt-header .gt-header-comment .gt-header-controls .gt-header-controls-tip .gt-ico .gt-svg,
+.main .gt-container .gt-header .gt-header-comment .gt-header-controls .gt-header-controls-tip .gt-ico .gt-ico-text {
+    vertical-align: middle;
+}
+
+.main .gt-container .gt-header .gt-header-comment .gt-header-controls .gt-header-controls-tip .gt-ico .gt-svg svg {
+    vertical-align: top;
+}

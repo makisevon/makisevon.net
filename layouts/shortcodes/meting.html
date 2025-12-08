@@ -1,0 +1,21 @@
+{{ if not (.Page.Scratch.Get "meting") }}
+    <!-- require APlayer -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    
+    <!-- require MetingJS -->
+    <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+    
+    {{ .Page.Scratch.Set "meting" true }}
+{{ end }}
+
+<p>
+    <meting-js
+        type="{{- .Get 0 -}}"
+        server="{{- .Get 1 -}}"
+        id="{{- .Get 2 -}}"
+        loop="{{- .Get 3 | default `none` -}}"
+        mutex="true"
+        list-max-height="330px">
+    </meting-js>
+</p>
