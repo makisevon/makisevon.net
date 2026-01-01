@@ -7,7 +7,7 @@ dropCap: true
 
 ![](/images/about.jpg "I want to improve.")
 
-你好！我是 Makise Von ~ 死宅 / 吹学家 / 算法竞赛败犬 / Server。喜欢 ACGN、Mystery 和 Coding，会一点 Go / Rust / Haskell / C / C++ / Python。
+你好！我是 Makise Von ~ 死宅 / 吹学家 / 算法竞赛败犬 / Server。喜欢 ACGN、Mystery 和 Coding，会一点 Go / Rust / C / C++。
 
 ---
 
