@@ -40,7 +40,6 @@ enableGitInfo = false
 # Enable generation of `robots.txt` file?
 enableRobotsTXT = true
 
-
 # URL related
 disablePathToLower = false
 relativeURLs = false
@@ -66,7 +65,7 @@ uglyURLs = false
     # lists (valid for the `posts` homepage
     # layout in MemE)
     pagerSize = 5
-    path = 'page'
+    path = "page"
 
 # Markdown renderer
 [markup]
@@ -102,7 +101,6 @@ uglyURLs = false
 # HTML minify
 [minify.tdewolff.html]
     keepWhitespace = false
-
 
 # Related content
 [related]
@@ -198,49 +196,42 @@ uglyURLs = false
 [menu]
     ## Menu bar
     # [[menu.main]]
-    #     url = "/"
     #     pageref = "/"
     #     name = "Home"
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
     # [[menu.main]]
-    #     url = "/posts/"
     #     pageref = "/posts/"
     #     name = "Posts"
     #     weight = 2
     #     pre = "internal"
     #     post = "archive"
     # [[menu.main]]
-    #     url = "/categories/"
     #     pageref = "/categories/"
     #     name = "Categories"
     #     weight = 3
     #     pre = "internal"
     #     post = "th"
     [[menu.main]]
-        url = "/tech/"
         pageref = "/tech/"
         name = "Tech"
         weight = 1
         pre = "internal"
         post = "code-branch"
     [[menu.main]]
-        url = "/life/"
         pageref = "/life/"
         name = "Life"
         weight = 2
         pre = "internal"
         post = "pencil-alt"
     [[menu.main]]
-        url = "/tags/"
         pageref = "/tags/"
         name = "Tags"
         weight = 3
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        url = "/about/"
         pageref = "/about/"
         name = "About"
         weight = 4
@@ -431,7 +422,7 @@ uglyURLs = false
     # Categories Page
 
     # Enable tree structure layout?
-    enableTree = false
+    enableTree = true
     # ATTENTION: This option cannot be
     #            disabled if you set
     #            `categoryBy` to `sections`
@@ -469,7 +460,7 @@ uglyURLs = false
 
     displayListTitle = true
 
-    listDateFormat = "January 2"
+    listDateFormat = "Jan. 2"
     # ATTENTION: be sure to follow the
     #            specified format
     #            https://gohugo.io/functions/format/
@@ -606,32 +597,6 @@ uglyURLs = false
 
     themeColor = "#fff"
     themeColorDark = "#16171d"
-
-    enableSafariMask = false
-    safariMaskColor = "#2a6df4"
-    # ATTENTION: Since https://realfavicongenerator.net/
-    #            no longer supports generating
-    #            safari-pinned-tab.svg (600x600 px),
-    #            please generate your own icon
-    #            if necessary, move it to the
-    #            ~/blog/static/icons/ directory,
-    #            and finally rename it to
-    #            safari-pinned-tab.svg.
-    #            Otherwise, it will default to
-    #            the icon provided by MemE.
-
-    enableMsApplication = false
-    msApplicationTileColor = "#fff"
-    # ATTENTION: Since https://realfavicongenerator.net/
-    #            no longer supports generating
-    #            mstile-150x150.png (150x150 px),
-    #            please generate your own icon
-    #            if necessary, move it to the
-    #            ~/blog/static/icons/ directory,
-    #            and finally rename it to
-    #            mstile-150x150.png.
-    #            Otherwise, it will default to
-    #            the icon provided by MemE.
 
 
     ######################################
@@ -919,7 +884,7 @@ uglyURLs = false
     # Note: valid for the `posts` and
     #       `page` homepage layout only
 
-    postMetaDateFormat = "January 2, 2006"
+    postMetaDateFormat = "Jan. 2, 2006"
     # ATTENTION: be sure to follow the
     #            specified format
     #            https://gohugo.io/functions/format/
@@ -1047,7 +1012,7 @@ uglyURLs = false
 
     enableVideoHost = false
 
-    videoHostURL = "https://example.com/"
+    videoHostURL = ""
 
 
     ######################################
