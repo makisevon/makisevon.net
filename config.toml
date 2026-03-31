@@ -78,7 +78,7 @@ uglyURLs = false
             strikethrough = true
             table = true
             taskList = true
-            typographer = true
+            typographer = false
         [markup.goldmark.parser]
             attribute = true
             autoHeadingID = true
